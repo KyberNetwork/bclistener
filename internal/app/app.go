@@ -136,6 +136,7 @@ const (
 	chainIDBSC          = 56
 	chainIDVelas        = 106
 	chainIDPolygon      = 137
+	chainIDSonic        = 146
 	chainIDBitTorrent   = 199
 	chainIDFantom       = 250
 	chainIDZKSyncEra    = 324
@@ -183,6 +184,8 @@ func chainIDToName(chainID int64) string {
 		return "zkSync Era"
 	case chainIDBase:
 		return "Base"
+	case chainIDSonic:
+		return "Sonic"
 	default:
 		return strconv.FormatInt(chainID, 10)
 	}
