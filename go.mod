@@ -6,7 +6,7 @@ require (
 	github.com/KyberNetwork/kyber-trace-go v0.1.1
 	github.com/TheZeroSlave/zapsentry v1.12.0
 	github.com/emirpasic/gods v1.18.1
-	github.com/ethereum/go-ethereum v1.14.11
+	github.com/ethereum/go-ethereum v1.14.12
 	github.com/getsentry/sentry-go v0.27.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/redis/go-redis/v9 v9.2.1
@@ -14,7 +14,6 @@ require (
 	github.com/urfave/cli/v2 v2.25.7
 	go.opentelemetry.io/otel/metric v1.22.0
 	go.uber.org/zap v1.26.0
-	golang.org/x/crypto v0.29.0
 	golang.org/x/sync v0.9.0
 )
 
@@ -22,7 +21,6 @@ require (
 	github.com/DataDog/zstd v1.5.2 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/bits-and-blooms/bitset v1.14.3 // indirect
-	github.com/btcsuite/btcd/btcec/v2 v2.3.4 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/consensys/bavard v0.1.22 // indirect
@@ -36,7 +34,6 @@ require (
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/ethereum/c-kzg-4844 v1.0.3 // indirect
 	github.com/ethereum/go-verkle v0.2.2 // indirect
-	github.com/gballet/go-libpcsclite v0.0.0-20191108122812-4678299bea08 // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
@@ -69,6 +66,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.22.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.0.0 // indirect
 	go.uber.org/multierr v1.10.0 // indirect
+	golang.org/x/crypto v0.29.0 // indirect
 	golang.org/x/exp v0.0.0-20231127185646-65229373498e // indirect
 	golang.org/x/net v0.25.0 // indirect
 	golang.org/x/sys v0.27.0 // indirect
